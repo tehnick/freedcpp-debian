@@ -1,3 +1,9 @@
+freedcpp (0.0.5-0ppa6~cosmic1) cosmic; urgency=medium
+
+  * Update patch fix-build-with-GCC-8.x: fix build with GCC <= 6.x.
+
+ -- Boris Pek <tehnick@debian.org>  Sun, 19 Aug 2018 17:02:44 +0300
+
 freedcpp (0.0.5-0ppa5~cosmic1) cosmic; urgency=medium
 
   * Add patches:
