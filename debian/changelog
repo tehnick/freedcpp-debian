@@ -1,3 +1,19 @@
+freedcpp (0.1.0-0ppa1~disco1) disco; urgency=medium
+
+  * New stable release.
+  * Delete all patches: already in upstream.
+  * Update debian/control:
+    - bump Standards-Version to 4.3.0 (was 4.2.0): no changes required
+    - add build dependency from libminiupnpc-dev
+    - update package description
+  * Update debian/rules: enable all hardening flags in compiler options.
+  * Update debian/watch.
+  * Update man page.
+  * Delete debian/docs.
+  * Add debian/upstream/metadata.
+
+ -- Boris Pek <tehnick@debian.org>  Thu, 21 Mar 2019 02:42:40 +0300
+
 freedcpp (0.0.5-0ppa6~cosmic1) cosmic; urgency=medium
 
   * Update patch fix-build-with-GCC-8.x: fix build with GCC <= 6.x.
