@@ -1,3 +1,16 @@
+freedcpp (0.1.1-0ppa1~focal1) focal; urgency=medium
+
+  * New stable release.
+  * Update debian/control:
+    - bump Standards-Version to 4.4.1 (was 4.3.0): no changes required
+    - delete build dependency from libgnome2-dev
+    - add build dependency from libcanberra-gtk-dev
+    - add "Rules-Requires-Root: no"
+    - update description of binary package
+  * Add debian/source/lintian-overrides.
+
+ -- Boris Pek <tehnick@debian.org>  Fri, 17 Jan 2020 22:17:42 +0300
+
 freedcpp (0.1.0-0ppa1~disco1) disco; urgency=medium
 
   * New stable release.
