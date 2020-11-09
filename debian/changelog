@@ -1,3 +1,14 @@
+freedcpp (0.1.2-0ppa1~hirsute1) hirsute; urgency=medium
+
+  * New stable release.
+  * Bump Standards-Version to 4.4.1 (was 4.3.0): no changes required.
+  * Update debian/watch.
+  * Update debian/manpages.
+  * Remove debian/freedcpp.1
+  * Remove debian/source/lintian-overrides.
+
+ -- Boris Pek <tehnick@debian.org>  Tue, 10 Nov 2020 02:28:48 +0300
+
 freedcpp (0.1.1-0ppa1~focal1) focal; urgency=medium
 
   * New stable release.
